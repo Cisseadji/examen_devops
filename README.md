@@ -64,17 +64,17 @@ docker login
 Construire l'image Docker :
 
 bash
-docker build -t adjicisse/image-http-server:latest .
+docker build -t adjicisse/my-http-server:latest .
 Taguer l'image :
 
 bash
 Copy
-docker tag adjicisse/image-http-server:latest adjicisse/image-http-server:latest
+docker tag adjicisse/my-http-server:latest adjicisse/my-http-server:latest
 3. Pousser l’image sur DockerHub
 Pousser l'image sur DockerHub :
 
 bash
-docker push adjicisse/image-http-server:latest
+docker push adjicisse/my-http-server:latest
 Vérifier sur DockerHub :
 Allez sur votre compte DockerHub pour vérifier que l'image a bien été poussée.
 
@@ -106,10 +106,10 @@ Récupérer et exécuter l’image depuis DockerHub
 Récupérer l'image depuis DockerHub :
 
 bash
-docker pull adjicisse/image-http-server:latest
+docker pull adjicisse/my-http-server:latest
 Exécuter l'image :
 
 bash
-docker run -p 8000:8000 adjicisse/image-http-server:latest
+docker run -p 8000:8000 adjicisse/my-http-server:latest
 Accéder au serveur :
 Ouvrez votre navigateur et allez à l'adresse : http://localhost:8000.
