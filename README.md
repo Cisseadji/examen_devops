@@ -36,7 +36,7 @@ Ouvrez votre navigateur et allez à l'adresse : http://localhost:8000.
 Construire et exécuter l’image Docker
 Construire l'image Docker :
 
-```bash
+bash
   docker build -t my-http-server .
 ### Exécuter le conteneur :
 
@@ -68,7 +68,6 @@ docker build -t adjicisse/my-http-server:latest .
 Taguer l'image :
 
 bash
-Copy
 docker tag adjicisse/my-http-server:latest adjicisse/my-http-server:latest
 3. Pousser l’image sur DockerHub
 Pousser l'image sur DockerHub :
